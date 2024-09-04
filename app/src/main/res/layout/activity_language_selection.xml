@@ -1,0 +1,39 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:padding="16dp"
+	android:background="@drawable/bg">
+
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/btn_english"
+		android:layout_width="330dp"
+		android:layout_height="68dp"
+		android:background="@drawable/button"
+		android:text="English" />
+
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/btn_hungarian"
+		android:layout_width="330dp"
+		android:layout_height="68dp"
+		android:background="@drawable/button"
+		android:text="Magyar"
+		android:layout_marginTop="16dp"/>
+
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/btn_german"
+		android:layout_width="330dp"
+		android:layout_height="68dp"
+		android:background="@drawable/button"
+		android:text="Deutsch"
+		android:layout_marginTop="16dp"/>
+
+	<androidx.appcompat.widget.AppCompatButton
+		android:id="@+id/btn_back"
+		android:layout_width="330dp"
+		android:layout_height="68dp"
+		android:background="@drawable/button"
+		android:text="@string/back"
+		android:layout_marginTop="16dp"/>
+</LinearLayout>

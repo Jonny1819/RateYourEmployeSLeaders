@@ -1,0 +1,71 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg">
+
+    <TextView
+        android:id="@+id/user_role_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:text="User Type"
+        android:textSize="18sp"
+        android:layout_marginBottom="16dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_employee"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button"
+        android:text="@string/add_employee"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_add_criteria"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button"
+
+        android:backgroundTintMode="add"
+        android:text="@string/add_criteria" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_rate_leader"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button"
+        android:text="@string/rate_leader"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_view_results"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button"
+        android:text="@string/view_results"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_trash"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button"
+        android:text="@string/trash"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_backup"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button"
+        android:text="@string/backup"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_logout"
+        android:layout_width="330dp"
+        android:layout_height="68dp"
+        android:background="@drawable/button"
+        android:text="@string/logout"
+        android:layout_marginTop="32dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

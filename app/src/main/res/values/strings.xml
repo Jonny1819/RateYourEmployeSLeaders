@@ -1,0 +1,65 @@
+<resources>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="deleted">Deleted</string>
+    <string name="app_name">Leader Assessment</string>
+    <string name="add_employee">Add Employee</string>
+    <string name="add_criteria">Add Criteria</string>
+    <string name="rate_leader">Rate Leader</string>
+    <string name="view_results">View Results</string>
+    <string name="trash">Trash</string>
+    <string name="backup">Backup</string>
+    <string name="save_to_excel">Save to Excel</string>
+    <string name="load_from_excel">Load from Excel</string>
+    <string name="back">Back</string>
+    <string name="logout">Logout</string>
+    <string name="employee_hint">Enter employee name</string>
+    <string name="criterion_hint">Enter criterion name</string>
+    <string name="tap_to_delete_employee">Tap on an employee to delete</string>
+    <string name="tap_to_delete_criterion">Tap on a criterion to delete</string>
+    <string name="empty_trash">Empty Trash</string>
+    <string name="employee_trash">Employee Trash</string>
+    <string name="criteria_trash">Criteria Trash</string>
+    <string name="confirm_delete">Are you sure you want to delete %s?</string>
+    <string name="password">Password</string>
+    <string name="admin_login">Admin Login</string>
+    <string name="user_login">User Login</string>
+    <string name="language">Language</string>
+    <string name="login">Login</string>
+    <string name="english">English</string>
+    <string name="hungarian">Hungarian</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_admin_password">Enter Admin Password</string>
+    <string name="enter_user_password">Enter User Password</string>
+    <string name="invalid_credentials">Invalid Credentials</string>
+    <string name="german">German</string>
+    <string name="incorrect_password">Incorrect password</string>
+    <string name="added">Added</string>
+    <string name="already_exist">Already exists</string>
+    <string name="please_enter_a_name">Please enter a name</string>
+    <string name="delete_criterion">Delete Criterion</string>
+    <string name="delete_employee">Delete Employee</string>
+    <string name="please_enter_criterion">Please enter a criterion</string>
+    <string name="restore_or_delete_criterion">Restore or Delete Criterion</string>
+    <string name="restore_delete_criterion_question">Would you like to restore or permanently delete %1$s?</string>
+    <string name="restore">Restore</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="restored">Restored</string>
+    <string name="criteria_trash_emptied">Criteria trash emptied</string>
+    <string name="employee_trash_emptied">Employee trash emptied</string>
+    <string name="backup_saved_successfully">Backup saved successfully</string>
+    <string name="error_saving_backup">Error saving backup</string>
+    <string name="backup_loaded_successfully">Backup loaded successfully</string>
+    <string name="error_loading_backup">Error loading backup</string>
+    <string name="ratings_submitted">Ratings submitted</string>
+    <string name="please_rate_all_criteria">Please rate all criteria</string>
+
+    <string name="deleted_permanently">Deleted permanently</string>
+
+    <string name="restore_or_delete_employee">Restore or Delete Employee</string>
+    <string name="restore_delete_employee_question">Would you like to restore or permanently delete %1$s?</string>
+
+    <string name="already_exists">Already exists</string>
+
+</resources>

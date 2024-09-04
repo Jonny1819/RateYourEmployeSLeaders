@@ -1,0 +1,64 @@
+<resources>
+	<string name="app_name">Vezető Értékelés</string>
+	<string name="add_employee">Alkalmazott Hozzáadása</string>
+	<string name="add_criteria">Kritérium Hozzáadása</string>
+	<string name="rate_leader">Vezető Értékelése</string>
+	<string name="view_results">Eredmények Megtekintése</string>
+	<string name="trash">Lomtár</string>
+	<string name="backup">Biztonsági Mentés</string>
+	<string name="save_to_excel">Mentés Excel-be</string>
+	<string name="load_from_excel">Betöltés Excel-ből</string>
+	<string name="back">Vissza</string>
+	<string name="logout">Kijelentkezés</string>
+	<string name="employee_hint">Adja meg az alkalmazott nevét</string>
+	<string name="criterion_hint">Adja meg a kritérium nevét</string>
+	<string name="tap_to_delete_employee">Érintse meg egy alkalmazott törléséhez</string>
+	<string name="tap_to_delete_criterion">Érintse meg egy kritérium törléséhez</string>
+	<string name="empty_trash">Lomtár Ürítése</string>
+	<string name="employee_trash">Alkalmazott Lomtár</string>
+	<string name="yes">Igen</string>
+	<string name="no">Nem</string>
+	<string name="deleted">Törölve</string>
+	<string name="delete_criterion">Kritérium törlése</string>
+	<string name="delete_employee">Dolgozó törlése</string>
+	<string name="please_enter_criterion">Kérem, adjon meg egy kritériumot</string>
+	<string name="restore_or_delete_criterion">Visszaállítás vagy Törlés: Kritérium</string>
+	<string name="restore_delete_criterion_question">Szeretné visszaállítani vagy véglegesen törölni: %1$s?</string>
+	<string name="restore">Visszaállítás</string>
+	<string name="delete">Törlés</string>
+	<string name="cancel">Mégse</string>
+	<string name="restored">Visszaállítva</string>
+	<string name="deleted_permanently">Véglegesen törölve</string>
+	<string name="criteria_trash_emptied">A kritérium lomtár kiürítve</string>
+	<string name="employee_trash_emptied">A dolgozó lomtár kiürítve</string>
+	<string name="backup_saved_successfully">Biztonsági mentés sikeresen elmentve</string>
+	<string name="error_saving_backup">Hiba a biztonsági mentés mentése közben</string>
+	<string name="backup_loaded_successfully">Biztonsági mentés sikeresen betöltve</string>
+	<string name="error_loading_backup">Hiba a biztonsági mentés betöltése közben</string>
+	<string name="ratings_submitted">Értékelés elküldve</string>
+	<string name="please_rate_all_criteria">Kérjük, értékelje az összes szempontot</string>
+
+	<string name="restore_or_delete_employee">Visszaállítás vagy Törlés: Dolgozó</string>
+	<string name="restore_delete_employee_question">Szeretné visszaállítani vagy véglegesen törölni: %1$s?</string>
+
+	<string name="already_exists">Már létezik</string>
+
+	<string name="criteria_trash">Kritérium Lomtár</string>
+	<string name="password">Jelszó</string>
+	<string name="confirm_delete">Tényleg törölni akarja %s?</string>
+	<string name="admin_login">Admin Bejelentkezés</string>
+	<string name="user_login">Felhasználói Bejelentkezés</string>
+	<string name="enter_password">Jelszó Megadása</string>
+	<string name="enter_admin_password">Adja meg az admin jelszót</string>
+	<string name="enter_user_password">Adja meg a felhasználói jelszót</string>
+	<string name="invalid_credentials">Érvénytelen bejelentkezési adatok</string>
+	<string name="login">Bejelentkezés</string>
+	<string name="incorrect_password">Helytelen jelszó</string>
+	<string name="language">Nyelv</string>
+	<string name="english">Angol</string>
+	<string name="hungarian">Magyar</string>
+	<string name="german">Német</string>
+	<string name="added">Hozzáadva</string>
+	<string name="already_exist">Már létezik</string>
+	<string name="please_enter_a_name">Kérem, adjon meg egy nevet</string>
+</resources>

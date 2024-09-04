@@ -1,0 +1,42 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+}
+
+android {
+    compileSdkVersion 34
+    defaultConfig {
+        applicationId "com.example.renner"
+        minSdkVersion 26
+        targetSdkVersion 34
+        versionCode 1
+        versionName "1.0"
+    }
+    namespace 'com.example.renner'
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+
+
+    implementation 'androidx.core:core-ktx:1.13.1'
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation 'com.google.android.material:material:1.12.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'org.jetbrains:annotations:15.0'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.2.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.6.1'
+    implementation 'org.apache.poi:poi:5.2.3' // Alap POI könyvtár
+    implementation 'org.apache.poi:poi-ooxml:5.2.3' // Az Excel OOXML (XLSX) formátumhoz szükséges
+   // implementation 'org.apache.poi:poi-ooxml-schemas:4.1.2' // Az OOXML sémák kezeléséhez szükséges
+    implementation 'org.apache.xmlbeans:xmlbeans:4.0.0' // XMLBeans, amely szükséges az OOXML feldolgozáshoz
+    implementation 'org.apache.commons:commons-collections4:4.4' // POI-hoz szükséges commons collections
+
+
+}

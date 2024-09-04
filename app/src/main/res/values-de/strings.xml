@@ -1,0 +1,66 @@
+<resources>
+	<string name="app_name">Führungskraft Bewertung</string>
+	<string name="add_employee">Mitarbeiter Hinzufügen</string>
+	<string name="add_criteria">Kriterium Hinzufügen</string>
+	<string name="rate_leader">Führungskraft Bewerten</string>
+	<string name="view_results">Ergebnisse Anzeigen</string>
+	<string name="trash">Papierkorb</string>
+	<string name="backup">Sicherung</string>
+	<string name="save_to_excel">In Excel Speichern</string>
+	<string name="load_from_excel">Aus Excel Laden</string>
+	<string name="back">Zurück</string>
+	<string name="logout">Abmelden</string>
+	<string name="employee_hint">Geben Sie den Namen des Mitarbeiters ein</string>
+	<string name="criterion_hint">Geben Sie den Namen des Kriteriums ein</string>
+	<string name="tap_to_delete_employee">Tippen Sie auf einen Mitarbeiter zum Löschen</string>
+	<string name="tap_to_delete_criterion">Tippen Sie auf ein Kriterium zum Löschen</string>
+	<string name="empty_trash">Papierkorb Leeren</string>
+	<string name="employee_trash">Mitarbeiter Papierkorb</string>
+	<string name="criteria_trash">Kriterien Papierkorb</string>
+	<string name="password">Passwort</string>
+	<string name="admin_login">Admin Anmelden</string>
+	<string name="user_login">Benutzer Anmelden</string>
+	<string name="language">Sprache</string>
+	<string name="english">Englisch</string>
+	<string name="hungarian">Ungarisch</string>
+	<string name="yes">Ja</string>
+	<string name="no">Nein</string>
+	<string name="deleted">Gelöscht</string>
+	<string name="delete_criterion">Kriterium löschen</string>
+	<string name="delete_employee">Mitarbeiter löschen</string>
+	<string name="please_enter_criterion">Bitte geben Sie ein Kriterium ein</string>
+	<string name="restore_or_delete_criterion">Kriterium wiederherstellen oder löschen</string>
+	<string name="restore_delete_criterion_question">Möchten Sie %1$s wiederherstellen oder dauerhaft löschen?</string>
+	<string name="restore">Wiederherstellen</string>
+	<string name="delete">Löschen</string>
+	<string name="cancel">Abbrechen</string>
+	<string name="criteria_trash_emptied">Kriterien-Papierkorb geleert</string>
+	<string name="employee_trash_emptied">Mitarbeiter-Papierkorb geleert</string>
+	<string name="backup_saved_successfully">Sicherung erfolgreich gespeichert</string>
+	<string name="error_saving_backup">Fehler beim Speichern der Sicherung</string>
+	<string name="backup_loaded_successfully">Sicherung erfolgreich geladen</string>
+	<string name="error_loading_backup">Fehler beim Laden der Sicherung</string>
+	<string name="ratings_submitted">Bewertungen übermittelt</string>
+	<string name="please_rate_all_criteria">Bitte bewerten Sie alle Kriterien</string>
+
+
+	<string name="restored">Wiederhergestellt</string>
+	<string name="deleted_permanently">Dauerhaft gelöscht</string>
+
+	<string name="restore_or_delete_employee">Mitarbeiter wiederherstellen oder löschen</string>
+	<string name="restore_delete_employee_question">Möchten Sie %1$s wiederherstellen oder dauerhaft löschen?</string>
+
+	<string name="already_exists">Existiert bereits</string>
+
+	<string name="enter_password">Passwort Eingeben</string>
+	<string name="enter_admin_password">Admin-Passwort Eingeben</string>
+	<string name="enter_user_password">Benutzer-Passwort Eingeben</string>
+	<string name="invalid_credentials">Ungültige Anmeldedaten</string>
+	<string name="login">Anmelden</string>
+	<string name="incorrect_password">Falsches Passwort</string>
+	<string name="german">Deutsch</string>
+	<string name="added">Hinzugefügt</string>
+	<string name="already_exist">Existiert bereits</string>
+	<string name="please_enter_a_name">Bitte geben Sie einen Namen ein</string>
+	<string name="confirm_delete">Möchten Sie %s wirklich löschen?</string>
+</resources>

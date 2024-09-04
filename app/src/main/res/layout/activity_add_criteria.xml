@@ -1,0 +1,57 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/bg">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center_horizontal"
+		android:orientation="vertical"
+		android:padding="16dp">
+
+		<EditText
+			android:id="@+id/input_criterion_name"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:textColorHint="@color/black"
+			android:hint="@string/criterion_hint" />
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_add_criteria"
+			android:layout_width="330dp"
+			android:layout_height="68dp"
+			android:text="@string/add_criteria"
+			android:layout_gravity="center_horizontal"
+			android:background="@drawable/button"
+			android:layout_marginTop="16dp" />
+
+		<TextView
+			android:id="@+id/info_text"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textColor="@color/black"
+			android:text="@string/tap_to_delete_criterion"
+			android:textSize="16sp"
+			android:layout_marginTop="16dp"/>
+
+		<LinearLayout
+			android:id="@+id/criteria_layout"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical"
+			android:layout_marginTop="16dp">
+		</LinearLayout>
+
+		<androidx.appcompat.widget.AppCompatButton
+			android:id="@+id/btn_back"
+			android:layout_width="330dp"
+			android:layout_height="68dp"
+			android:text="@string/back"
+			android:layout_gravity="center_horizontal"
+			android:background="@drawable/button"
+			android:layout_marginTop="16dp"/>
+
+	</LinearLayout>
+</ScrollView>
