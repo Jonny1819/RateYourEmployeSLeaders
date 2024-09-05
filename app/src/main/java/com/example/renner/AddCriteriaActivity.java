@@ -51,7 +51,7 @@ public class AddCriteriaActivity extends AppCompatActivity {
                     addCriterion(criterion);
                     criteriaInput.setText("");
                 } else {
-                    Toast.makeText(AddCriteriaActivity.this, R.string.please_enter_criterion, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddCriteriaActivity.this, getString(R.string.please_enter_criterion), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -65,9 +65,9 @@ public class AddCriteriaActivity extends AppCompatActivity {
             editor.putStringSet("criteria", criteriaSet);
             editor.apply();
             loadAndDisplayCriteria();
-            Toast.makeText(this, criterion + R.string.added, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, criterion + getString(R.string.added), Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, criterion + R.string.already_exist, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, criterion + getString(R.string.already_exist), Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -102,7 +102,7 @@ public class AddCriteriaActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         moveToTrash(criterion, "criteria", "criteria_trash");
-                        Toast.makeText(AddCriteriaActivity.this, criterion + R.string.deleted, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddCriteriaActivity.this, criterion + getString(R.string.deleted), Toast.LENGTH_SHORT).show();
                         loadAndDisplayCriteria();
                     }
                 })
