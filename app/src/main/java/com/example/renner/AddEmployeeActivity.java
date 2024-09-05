@@ -50,7 +50,7 @@ public class AddEmployeeActivity extends AppCompatActivity {
                     addEmployee(employeeName);
                     employeeNameInput.setText("");
                 } else {
-                    Toast.makeText(AddEmployeeActivity.this, R.string.employee_hint, Toast.LENGTH_SHORT).show();
+                    Toast.makeText(AddEmployeeActivity.this, getString(R.string.employee_hint), Toast.LENGTH_SHORT).show();
                 }
             }
         });
@@ -92,9 +92,9 @@ public class AddEmployeeActivity extends AppCompatActivity {
             editor.putStringSet("employees", employeeSet);
             editor.apply();
             loadAndDisplayEmployees();
-            Toast.makeText(this, employeeName + R.string.added, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, employeeName + getString(R.string.added), Toast.LENGTH_SHORT).show();
         } else {
-            Toast.makeText(this, employeeName + R.string.already_exist, Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, employeeName + getString(R.string.already_exist), Toast.LENGTH_SHORT).show();
         }
     }
 
@@ -106,7 +106,7 @@ public class AddEmployeeActivity extends AppCompatActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         moveToTrash(employee, "employees", "employee_trash");
-                        Toast.makeText(AddEmployeeActivity.this, employee + R.string.deleted, Toast.LENGTH_SHORT).show();
+                        Toast.makeText(AddEmployeeActivity.this, employee + getString(R.string.deleted), Toast.LENGTH_SHORT).show();
                         loadAndDisplayEmployees();
                     }
                 })
